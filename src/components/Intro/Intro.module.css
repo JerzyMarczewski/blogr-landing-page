@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    background-image: var(--bg-gradient-intro);
+    
+    
+    background-size: 500%;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 50%;
+}

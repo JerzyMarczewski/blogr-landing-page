@@ -1,0 +1,25 @@
+:root {
+  --primary-red: hsl(356, 100%, 66%); /* CTA text */
+  --primary-light-red: hsl(355, 100%, 74%); /* CTA hover background */
+  --primary-dark-blue: hsl(208, 49%, 24%); /* headings */
+
+  --neutral-white: hsl(0, 0%, 100%); /* text */
+  --neutral-grayish-blue: hsl(240, 2%, 79%); /* footer text */
+  --neutral-dark-grayish-blue: hsl(207, 13%, 34%); /* body copy */
+  --neutral-dark-blue: hsl(240, 10%, 16%); /* footer background */
+
+  --bg-gradient-intro: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  --bg-gradient-body: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+}
