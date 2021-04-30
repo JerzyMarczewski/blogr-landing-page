@@ -7,4 +7,95 @@
     background-repeat: no-repeat;
     background-position-x: 40%;
     background-position-y: 50%;
+    border-radius: 0 0 0 7rem;
+}
+
+.textContainer {
+    
+    padding: 3rem 2rem 9rem 2rem;
+    color: var(--neutral-white);
+    font-family: "Overpass", sans-serif;
+    /* font-family: "Ubuntu", sans-serif; */
+    text-align: center;
+}
+
+.textContainer h1 {
+    margin: 1rem 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.textContainer p {
+    margin: 1rem .25rem;
+    font-weight: 300;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button1,
+.button2 {
+    padding: .75em 1.4em;
+    margin: .25em;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: all .2s ease-in;
+}
+
+.button1 {
+    border: 1px solid var(--primary-red);
+    background-color: var(--neutral-white);
+    color: var(--primary-red);
+}
+
+.button1:hover {
+    border: 1px solid var(--neutral-white);
+    background: var(--primary-red);
+    color: var(--neutral-white);
+}
+
+.button2 {
+    border: 1px solid var(--neutral-white);
+    background-color: transparent;
+    color: var(--neutral-white);
+}
+
+.button2:hover {
+    background: var(--neutral-white);
+    color: var(--primary-red);
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        background-size: 200%;
+        background-position-x: 25%;
+        background-position-y: 50%;
+    }
+
+    .textContainer {
+        padding: 5rem 2rem 11rem 2rem;
+    }
+
+    .textContainer h1 {
+        margin: 2rem 0 1rem;
+        font-size: 4rem;
+    }
+
+    .textContainer p {
+        margin: 1rem .25rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .button1,
+    .button2 {
+        padding: .75em 1.4em; /*padding: .75em 1.4em; */
+        margin: .25em;
+        border-radius: 2em;
+        font-size: 1.5rem;
+        transition: all .2s ease-in;
+    }
 }

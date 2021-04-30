@@ -159,6 +159,11 @@
         align-items: center;
     }
 
+    .mainOptions li {
+        max-width: 140px;
+        text-align: center;
+    }
+
     .stringAndArrow {
         opacity: .7;
     }

@@ -10,33 +10,16 @@ const Intro = () => {
         <div className={styles.container}
             style={{ backgroundImage: `url(${bgPatternIntro}), var(--bg-gradient-intro)` }}
         >
-            {/* <img src={bgPatternIntro} alt="" width="1000"/> */}
             <Navbar />
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
-            <p><h1>Hello</h1></p>
+            <div className={styles.textContainer}>
+                <h1>A modern publishing platform</h1>
+                <p>Grow your audience and build your online brand</p>
+
+                <div className={styles.buttonsContainer}>
+                    <div className={styles.button1}>Start for Free</div>
+                    <div className={styles.button2}>Learn More</div>
+                </div>
+            </div>
         </div>
     )
 }
